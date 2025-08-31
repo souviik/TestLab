@@ -1,4 +1,4 @@
-# TestLab - Test Automation Framework for Labcorp
+# TestLab - Labcorp Test Automation Framework
 
 A comprehensive test automation framework built with Java, Selenium WebDriver, Cucumber BDD, and TestNG. This framework demonstrates modern testing practices through real-world Web UI automation and REST API testing scenarios.
 
