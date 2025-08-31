@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="LabcorpTestSuite" parallel="false">
+    <parameter name="BROWSER" value="chrome"/>
+    <parameter name="HEADLESS" value="false"/>
+    
+    <listeners>
+        <listener class-name="com.sdastest.listeners.AllureListener"/>
+        <listener class-name="com.sdastest.listeners.TestListener"/>
+    </listeners>
+    
+    <test name="LabcorpCareerTest">
+        <classes>
+            <class name="com.sdastest.runners.TestRunnerLabcorp"/>
+        </classes>
+    </test>
+</suite>
